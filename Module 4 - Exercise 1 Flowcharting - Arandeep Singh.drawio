@@ -1,0 +1,122 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.1.1 Chrome/132.0.6834.210 Electron/34.3.3 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="a-ytN03hc-aiOAGzS_v8">
+    <mxGraphModel dx="1098" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" width="214" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-2" target="dYyR_N_H1Vrfso9IkeuZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-2" value="Input area code" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="200" width="204" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.461;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-1" target="dYyR_N_H1Vrfso9IkeuZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-4" value="Is areaCode == -1?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="360" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="470" as="sourcePoint" />
+            <mxPoint x="500" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-8" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="312" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-9" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-10" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="480" width="214" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-11" target="dYyR_N_H1Vrfso9IkeuZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-11" value="Set bill = 5.00" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="710" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-12" value="Input phone number, number of messages" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="525" width="200" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.556;entryY=0.091;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-12" target="dYyR_N_H1Vrfso9IkeuZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-14" value="Is numbMessages &amp;gt; 100" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="1300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-16" value="numMessages &amp;lt;= 300?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1080" width="120" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.533;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-14" target="dYyR_N_H1Vrfso9IkeuZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-18" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="960" as="sourcePoint" />
+            <mxPoint x="380" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="1200" as="sourcePoint" />
+            <mxPoint x="362" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-23" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-24" target="dYyR_N_H1Vrfso9IkeuZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-24" value="Add (numMessages - 100) x 0.03" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="1300" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-25" value="Add (200 x 0.03) + (numMessages - 300) x 0.02" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1220" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-26" target="dYyR_N_H1Vrfso9IkeuZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-26" value="Calculate billWithTax = bill + bill x 0.14" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="172" y="1470" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dYyR_N_H1Vrfso9IkeuZ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="751" y="1708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-28" value="Output area code, phone number, numMessages, bills, billWithTax" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1640" width="200" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="dYyR_N_H1Vrfso9IkeuZ-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.956;entryY=0.591;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="dYyR_N_H1Vrfso9IkeuZ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="465" as="sourcePoint" />
+            <mxPoint x="800" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
